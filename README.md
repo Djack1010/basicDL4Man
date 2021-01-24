@@ -1,12 +1,13 @@
 ## Setup environment
-Install `virtualenv`
+Clone the repo and install `virtualenv`
 ```
+git clone <REMOTE_GIT>
 sudo apt install python3-virtualenv
 ```
 
-Create the virtual environment
+Create the virtual environment with python3
 ```
-virtualenv venv
+virtualenv --python=/usr/bin/python3 venv
 ```
 Activate the virtual environment
 ```

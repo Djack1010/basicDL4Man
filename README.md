@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 ### Test the environment
 ```
-python main.py -m BASIC -d DATASETS/dataset1_PREPROCESSED/ -i 50x1 -e 3
+python main.py -m BASIC -d DATASETS/dataset_test/ -i 50x1 -e 3
 ```
 Check the input parameters with
 ```
